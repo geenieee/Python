@@ -19,6 +19,11 @@ env/
 .env
 .env.local
 
+# Google Credentials (보안 - 절대 커밋하지 말 것!)
+credentials.json
+*.json
+!package.json
+
 # OS
 .DS_Store
 Thumbs.db

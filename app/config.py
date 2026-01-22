@@ -6,7 +6,7 @@ import os
 
 # 세션 설정
 SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-change-in-production-12345")
-SESSION_MAX_AGE = 3600  # 1시간
+SESSION_MAX_AGE = 36000  # 10시간
 SESSION_COOKIE_NAME = "ldap_session"
 SESSION_SAME_SITE = "lax"
 SESSION_HTTPS_ONLY = False  # 개발 환경에서는 False (운영에서는 True 권장)
